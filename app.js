@@ -6,7 +6,6 @@ let tentativas = 0;
 function texto(tag, texto) {
     let uTexto = document.querySelector(tag);
     uTexto.innerHTML = texto;
-   // responsiveoice.speak(texto, 'Brazilian Portuguese Female', {rate:1.2});
    if ('speechSynthesis' in window) {
     let utterance = new SpeechSynthesisUtterance(texto);
     utterance.lang = 'pt-BR'; 
