@@ -1,5 +1,5 @@
 let listaNumba = [];
-let hardCore = 100;
+let hardCore = 200;
 numeroSecreto = leNumo();
 let tentativas = 0;
 
